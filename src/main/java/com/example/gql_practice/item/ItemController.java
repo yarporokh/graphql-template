@@ -35,6 +35,7 @@ public class ItemController {
     public void deleteItem(@PathVariable Long id) {
         itemService.deleteById(id);
     }*/
+    //test cooment
     private final ItemService itemService;
 
     @QueryMapping
